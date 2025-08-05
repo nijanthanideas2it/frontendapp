@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: projexiq-frontend
-    runtime: node
-    buildCommand: npm install && npm run build:prod
-    startCommand: npm start
-    envVars:
-      - key: NODE_VERSION
-        value: 18.17.0 
